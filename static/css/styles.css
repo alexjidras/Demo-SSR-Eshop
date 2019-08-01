@@ -1,0 +1,1032 @@
+/************General Settings***********/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  position: absolute;
+  min-height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background: #000;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*************Header Logo***************/
+.header-logo {
+margin-left: 5%;
+}
+
+.header-logo a{
+  text-transform: uppercase;
+  color: white;
+  font-weight: 800;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+/************Header menu**************/
+nav {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  width: 40%;
+  height: 50px;
+}
+nav .topnav{
+  display: flex;
+  justify-content: flex-start;
+}
+.topnav a {
+  color: white;
+  text-align: center;
+  margin: 5%;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  border-bottom: 2px solid #f00;
+}
+
+.icon {
+  display: none;
+}
+
+
+/***********SLider************/
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  padding: 50px 0 200px 0;
+}
+
+main .welcome {
+  background: #000;
+}
+
+main .main-welcome {
+  text-align: left;
+  margin-left: 5%;
+  display: inline-block;
+  margin: 200px 0 210px 0;
+  height: 165px;
+  width: 100%;
+  display: flex;
+}
+
+main .main-welc {
+    width: 50%;
+    margin-left: 10%;
+}
+main .main-welc h1{
+  padding-bottom: 20px;
+}
+
+main .main-welcome h1 {
+  border-left: 3px solid #f00;
+  padding-left: 10px;
+  color: #fff;
+  font-size: 2.1em;
+  letter-spacing: 1px;
+}
+
+.comp {
+  font-size: 1.3em;
+  color: #f00;
+}
+.bigmodel {
+  height: 400px;
+  position: relative;
+  top: -100px;
+}
+
+/*******Primu about*******/
+
+.wrapper {
+  width: 76%;
+  margin: 0 auto;
+}
+
+main .main-about {
+  display: flex;
+  padding: 100px 0 100px 0;
+}
+
+main .about-left img {
+  width: 400px;
+}
+main .about-right {
+  margin-left: 175px;
+}
+
+main .about-right h1 {
+  display: inline-block;
+  border-bottom: 3px solid #fcac45;
+  padding-bottom: 20px;
+}
+
+main .about-right p {
+  margin: 30px 0 30px 0;
+  color: #6c6c6c;
+  font-weight: bold;
+}
+
+main .about-right i {
+  color: #6c6c6c;
+}
+
+main .about-right li {
+  background: url("../img/design/mark.png") 0px no-repeat;
+  background-size: 14px;
+  padding-left: 25px;
+  margin-top: 10px;
+}
+
+.mw-100 {
+  min-width: 400px;
+}
+
+/*********Magazine best products********/
+
+.main-mag {
+  background: #000;
+  text-align: center;
+  padding: 100px 0px 165px 0px;
+  color: #fff;
+}
+
+.main-mag h1 {
+  font-size: 2.2em;
+  padding-bottom: 30px;
+}
+
+.line {
+  width: 10%;
+  height: 3px;
+  background-color: #f00;
+  position: relative;
+  left: 45.5%;
+  margin-bottom: 85px;
+}
+
+.photo {
+  background: #6c6c6c;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+   margin: 20px auto;
+}
+
+.photo img{
+  width: 125px;
+  height: 125px;
+}
+
+main .cards {
+  display: flex;
+  justify-content: space-around;
+}
+.prod-cards {
+  margin: 0 10px;
+}
+
+.info {
+  margin-bottom: 15px;
+}
+
+
+/*********Services Group*****************/
+
+.main-services {
+  text-align: center;
+  padding-top: 100px;
+}
+.main-services h1{
+  padding-bottom: 30px;
+}
+.main-services p {
+  color: #6c6c6c;
+  margin-bottom: 100px;
+  font-weight: lighter;
+}
+
+.services-cards {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 20px;
+}
+
+.services-card img{
+  height: 80px;
+}
+
+.services-cards h4 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/*********Main clinets*******************/
+
+.main-clients img {
+  width: 150px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.main-clients {
+  background: black;
+  padding: 100px 0 205px 0;
+  color: white;
+  text-align: center;
+}
+
+.main-clients h1 {
+  margin-bottom: 30px;
+}
+
+/********GHALERY********************/
+
+.main-galery {
+  text-align: center;
+  padding: 100px 0 0 0;
+}
+main .galery {
+  display: flex;
+  grid-template-columns: auto auto auto auto;
+}
+
+.galery * {
+  margin-bottom: 45px;
+}
+
+.main-galery h1 {
+  margin-bottom: 30px;
+}
+
+.main-galery p {
+  margin-bottom: 175px;
+  color: #6c6c6c;
+}
+
+
+.main-galery img:hover {
+  opacity: .8;
+}
+
+/*********Testimonials******************/
+
+#main-testimonials {
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    background-image: url("../img/design/deliveryback1.jpg");
+    min-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementsOfDelivery {
+
+    display: flex;
+    justify-content: space-between;
+}
+    
+.blockOfNmbLoop, .numberLoopSection input{
+  text-align: center;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 3px;
+    width: 250px;
+}
+
+.blockOfNmbLoop {
+    font-size: 1.7em;
+    margin-top: 150px;
+}
+
+.numberLoopSection {
+    margin-bottom: 10px;
+    height: 75px;
+}
+.numberLoopSection input {
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 20px;
+    font-size: 2em;
+    height: 75px;
+    
+}
+
+/*******Contact US*************/
+
+.contact-form {
+  padding: 100px 0 0 0;
+  text-align: center;
+}
+
+
+.contact-form h1 {
+  color: black;
+  margin-bottom: 30px;
+}
+
+.contact-wrapper {
+  width: 60%;
+  margin:auto;
+  color: #636363;
+}
+
+form p{
+  text-align: left;
+}
+
+form {
+  margin-top: 30px;
+}
+.red {
+  color: red;
+}
+
+.form-imputs {
+  display: flex;
+}
+
+textarea {
+  width: 100%;
+  height: 163px;
+}
+
+.contact-form input {
+  width: 95%;
+  height: 40px;
+  font-size: 1.6em;
+  margin-bottom: 30px;
+}
+
+.contact-form input, textarea {
+  border: 1px solid #999999;
+  margin-top: 5px;
+}
+
+
+.button-block {
+  display: flex;
+  justify-content:flex-end;
+}
+
+.contact-form input[type=submit] {
+  width:  25%;
+  height: 40px;
+  background: #fcac45;
+  color: white;
+  margin-right: 0;
+  margin-top: 10px;
+}
+
+/*********Footer************************/
+
+footer  {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+}
+footer {
+  width: 100%;
+  color: white;
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+}
+footer .contactsBlock {
+    height: 120px;
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contacts_row{
+  padding:5px 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.contactsPng {
+    height: 20px;
+}
+
+.contactsText {
+    font-size: 0.7em;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    text-align: left;
+    display:flex;
+    align-items: center;
+    color:#fff;
+}
+
+.description-footer-text{
+  padding: 30px 0;
+  font-size: 0.6em;
+  width: 30%;
+  color:red;
+  overflow: hidden;
+}
+
+/
+
+/*****************************************************************the start of styles of products page**********************/
+/**********************THE MAIN SEARCH BAR*********************/
+#checkingBar {
+    height: 50px;
+    width: 90%;
+    padding-bottom: 50px;
+}
+
+#checkingBar ul{
+    margin: 30px 5%;
+    display: flex;
+    background-color: rgba(0, 0, 0, .2);;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+#checkingBar ul li{
+    padding: 0 5px;
+}
+
+#checkingBar ul li:hover{
+    transition: 0.5s;
+    background-color: white;
+    cursor :pointer;
+}
+
+/*START OF PRODUCTS BLOCK*/
+
+.products-row{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 2.5%;
+    margin-bottom: 30px;
+    margin: 0 5% 50px 5%;
+}
+
+div .productBlock {
+    border:0.5px solid #6c6c6c;
+    width: 20%;
+    padding-bottom: 20px;
+    text-align: center;
+    transition: all 0.5s;
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+div .productBlock:hover,
+div .productBlock:focus {
+    transform: scale(1.1);
+}
+    
+.productBlock div .image-section {
+    max-height: 250px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.expiredPrice{
+  font-size: 0.5em;
+  text-decoration: line-through;
+  color: grey;
+}
+
+.priceSection {
+    letter-spacing: 2px;
+    margin: 5px 0;
+    color: red;
+}
+    
+.buy-button {
+    height: 30px;
+    width: 40%;
+    padding: 5px;
+    transition: all 0.5s;
+    background-color: green;
+     border:0.5px solid #6c6c6c;
+    color: #fff;
+}
+    
+.buy-button:hover,
+.buy-button:focus {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/**********************the end of products styles of page***************************/
+
+/**************************************************************************************/
+/****************************THE STYLES FOR ONE PRODUCT PAGE DESIGN************************/
+.main-product-block{
+      width: 100%;
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+/**choose left photo**/
+.choose-photo{
+  width: 8%;
+}
+
+.choose-photo img{
+  width: 100%;
+  max-height: 150px;
+}
+
+.big-photo-choosen{
+  width: 40%;
+}
+
+ .big-photo-choosen img{
+  width: 100%;
+}
+
+/*****the right part of one product design(title,buy button etc)**/
+.description-buy-block {
+  width: 40%;
+  text-align: center;
+}
+
+.description-buy-block .product-title{
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+
+.description-buy-block .desc-grey-text{
+  color: #6c6c6c;
+  padding: 10px;
+  font-size: 0.5em;
+}
+
+.check-colors-block{
+  width: 50%;
+  height: 50px;
+  margin: 15px 25%;
+  display: flex;
+  justify-content: space-around;
+}
+.color-square{
+  width: 30px;
+  height: 30px;
+  background-color: green;
+}
+.order-form form{
+  width: 50%;
+  margin-left: 20%;
+  font-size: 0.6em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.order-form form p{
+  margin-top: 9px;
+  height: 20px;
+  align-self: center;
+}
+
+.order-form input{
+  height: 20px;
+  margin-top: 5px;
+}
+
+.description-buy-block button{
+  margin: 30px 0;
+  height: 40px;
+  width: 60%;
+  font-size: 1.8em;
+}
+
+/******the bottom part of the page(purposed products)****/
+#some-purpose-products{
+  margin: 50px 0;
+}
+
+.purpose-text {
+  font-size: 2em;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-left: 10%;
+  color: red;
+}
+
+#some-purpose-products .body-purpose{
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#some-purpose-products .productBlock{
+  transform: scale(0.8);
+}
+/*****************************THE END OF ONE-PRODUCT PAGE DESIGN*****************************/
+
+/*****************************************************************The START OF ABOUT-US PAGE**********************/
+
+.about-us-page {
+  width: 90%;
+  margin: 50px 5% 0 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2em;
+}
+.about-us-page h1 {
+  margin:0 auto 30px auto;
+  width: 5em;
+  border-bottom: 3px solid red;
+}
+.about-us-page span {
+  color: #6c6c6c;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+/*****************************************************************The END OF ABOUT-US PAGE**********************/
+
+/*****************************************************************The START OF contact-US PAGE**********************/
+    .contacts-links {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 80%;
+      height: 250px;
+      margin:100px 10% 0 10%;
+      text-align: center;
+    }
+    .contacts-links h1 {
+      font-size: 2.5em;
+      border-bottom: 3px solid red;
+      width: 4.5em;
+      padding: 5px;
+      align-self: center;
+    }
+    .contacts-file-row {
+      margin: 100px 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .contacts-file-row a{
+      width: 100%;
+    }
+    .contacts-file-row a img{
+      width: 95%;
+      height: 80px;
+    }
+
+    /*****************************************************************The END OF contact-US PAGE**********************/
+
+/*********Responsive for site********/
+
+@media screen and (max-width: 900px) {
+	/******FOR PHONES***||******FOR PHONES***||******FOR PHONES***||******FOR PHONES***||******FOR PHONES***||******FOR PHONES***||******FOR PHONES***||*****/
+  header {
+    height: 100px;
+  }
+  nav {
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+  }
+  nav .topnav {
+    position: absolute;
+    display: block;
+    opacity: 0;
+    min-width: 85px;
+    overflow: hidden;
+    height: 100px;
+    align-items: center;
+    background-color: #000;
+    margin-top: 30px;
+    transition: 0.5s;
+  }
+
+		.topnav a{
+      text-decoration: none;
+      display: block;
+		}
+
+    .topnav a:hover{
+      border:none;
+      background-color: #f00;
+    }
+
+		.icon {
+      display: flex;
+      margin-right: 5%;
+		}
+
+    .icon img {
+      height: 50px;
+    }
+    nav:hover .topnav {
+    opacity: 1;
+  }
+    main{
+    padding-top: 120px;
+  }
+
+   main .welcome {
+    display: none;
+  }
+
+		main .main-welcome {
+		padding: 50px 0;
+		}
+
+		main .main-welcome p {
+		font-size: 1em;
+		}
+
+		main .main-welcome h1 {
+		font-size: 2em;
+		}
+
+		main .main-welcome img {
+		display: none;
+		}
+
+		main .mw-100 {
+		display: none;
+		}
+
+		main .about-left {
+    box-sizing: border-box;
+		}
+
+		main .main-about {
+		flex-direction: column;
+		}
+    main .about-left {
+    margin: 5px 0px 5px 25px;
+  }
+		main .about-right{
+		margin-left: 0px;
+		padding: 0;
+		}
+
+		main .about-right h1 {
+		font-size: 1.5em;
+		margin-top: 10px;
+		}
+
+		main .cards {
+		flex-direction: column;
+		}
+
+    .prod-cards:last-child {
+      display: none;
+    }
+
+		.services-cards {
+		grid-template-columns: auto;
+		}
+    .services-card:last-child {
+      display: none;
+    }
+
+		main .main-galery{
+			display: none;
+		}
+
+		/*.line1 img:not(:first-child) {
+		display: none;
+		}
+		.line2 img:not(:first-child) {
+		display: none;
+		}
+		.line3 img:not(:first-child) {
+		display: none;
+		}*/
+
+		main #main-testimonials{
+			display: none;
+		}
+
+		section.contact-form {
+			width: 100%;
+		}
+
+		section .contact-wrapper {
+			width: 90%;
+		}
+    footer {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      box-sizing: border-box;
+      padding: 10px;
+      display: block;
+    }
+		footer .contactsBlock {
+      height: auto;
+      width: 50%;
+      margin: 0;
+      padding: 0;
+		}
+
+		footer .contactsPng {
+		    display: none;
+		}
+		footer .contactsText {
+		    font-size: 0.8em;
+		}
+    footer .description-footer-text{
+      display: none;
+    }
+
+
+    /*****************************************************************the start of styles of products page**********************/
+    /**********************THE MAIN SEARCH BAR*********************/
+    main#catalog-products{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    #checkingBar {
+        height: auto;
+        width: 25%;
+    }
+    #checkingBar ul{
+        flex-direction: column;
+    }
+
+    #checkingBar ul li{
+      text-align: center;
+      padding: 5px 0;
+      width: 100%;
+    }
+
+    /*START OF PRODUCTS BLOCK*/
+    .products{
+      width: 60%;
+      padding: 30px 0;
+    }
+    .products-row{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    div .productBlock {
+        width: 100%;
+        padding: 0;
+        font-size: 1em;
+        display: block;
+    }
+    .titleSection{
+      margin-top: 3%;
+      float: right;
+      width: 35%;
+      overflow: hidden;
+    }
+    .productBlock div .image-section {
+        float: left;
+        max-height: 250px;
+        width: 60%;
+        margin-top: 0;
+    }
+    .price-of-product{
+      margin-top: 3%;
+      float: right;
+      width: 40%;
+      font-size: 0.7em;
+    }
+    .buy-button {
+      margin-top: 3%;
+      font-size: 0.6em;
+      width: 30%;
+    }
+      
+/**********************the end of products styles of page***************************/
+
+
+
+
+    /**************************************************************************************/
+    /****************************THE STYLES FOR ONE PRODUCT PAGE DESIGN************************/
+    .main-product-block{
+          margin-top: 80px;
+          display: block;
+        }
+
+    /**choose left photo**/
+    .choose-photo{
+      display: flex;
+      justify-content: space-around;
+      width: 60%;
+      margin-left: 20%;
+    }
+
+    .choose-photo img{
+      width: 80%;
+      max-height: 100px;
+    }
+
+    .big-photo-choosen{
+      width: 80%;
+      margin: 10px 10%;
+    }
+
+     .big-photo-choosen img{
+      width: 100%;
+    }
+
+    /*****the right part of one product design(title,buy button etc)**/
+    .description-buy-block {
+      width: 100%;
+    }
+
+    .description-buy-block .product-title {
+      font-size: 2.5em;
+      padding: 5px;
+    }
+    .desc-grey-text {
+      width: 80%;
+      margin: 0 10%;
+    }
+
+    .description-buy-block .desc-grey-text {
+      color: #6c6c6c;
+      padding: 10px;
+    }
+
+    .check-colors-block {
+      width: 50%;
+      height: 50px;
+      margin: 0 25%;
+    }
+    .color-square{
+      background-color: green;
+    }
+    .order-form form{
+      width: 70%;
+      margin: 10px 15%;
+    }
+
+    #some-purpose-products{
+      display: none;
+    }
+    /*****************************THE END OF ONE-PRODUCT PAGE DESIGN*****************************/
+
+    /*****************************************************************The START OF ABOUT-US PAGE**********************/
+    
+
+    /*****************************************************************The END OF ABOUT-US PAGE**********************/
+    
+    /*****************************************************************The START OF contact-US PAGE**********************/
+    .contacts-links {
+      height: 400px;
+    }
+    .contacts-file-row{
+      flex-direction: column;
+      width: 100%;
+      height: 170px;
+    }
+    .contacts-file-row a {
+      width: 80%;
+      margin: 10px 10%
+    }
+
+
+    /*****************************************************************The END OF contact-US PAGE**********************/
+}
