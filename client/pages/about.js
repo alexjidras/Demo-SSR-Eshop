@@ -4,7 +4,7 @@ export default () => (
     <main>
         <div class="about-us-page">
         <h1>About us</h1>
-        <span>Cel mai charysmatic magzin online de branduri din Molodva in ultimii 3 ani.Avand o gama larga de produse la cel mai avantajos pret.Cel mai charysmatic magzin online de branduri din Molodva in ultimii 3 ani.Avand o gama larga de produse la cel mai avantajos pret.Cel mai charysmatic magzin online de branduri din Molodva in ultimii 3 ani.Avand o gama larga de produse la cel mai avantajos pret.</span>
+        <span>Cel mai charismatic magzin online de branduri din Molodva in ultimii 3 ani. Avand o gama larga de produse la cel mai avantajos pret.Cel mai charysmatic magzin online de branduri din Molodva in ultimii 3 ani.Avand o gama larga de produse la cel mai avantajos pret.Cel mai charysmatic magzin online de branduri din Molodva in ultimii 3 ani.Avand o gama larga de produse la cel mai avantajos pret.</span>
         </div>
         <div class="main-services">
         <div class="wrapper">

@@ -1,8 +1,8 @@
 import React from 'react';
 import Form from './form';
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
-export default ({gallery}) => (
+export default ({ gallery }) => (
   <main>
   <Helmet>
   <script type="text/javascript" src="../js/anime.min.js"></script>
@@ -67,7 +67,7 @@ export default ({gallery}) => (
         <div class="wrapper">
           <h1>OUR SERVICES</h1>
           <div class="line"></div>
-          <p><i>Cel mai charysmatic magzin online de branduri din Molodva in ultimii 3 ani.Avand o gama larga de produse la cel mai avantajos pret.Cel mai charysmatic magzin online de branduri din Molodva in ultimii 3 ani.Avand o gama larga de produse la cel mai avantajos pret.Cel mai charysmatic magzin online de branduri din Molodva in ultimii 3 ani.Avand o gama larga de produse la cel mai avantajos pret.
+          <p><i>Cel mai charismatic magazin online de branduri din Molodva in ultimii 3 ani. Avand o gama larga de produse la cel mai avantajos pret.Cel mai charysmatic magzin online de branduri din Molodva in ultimii 3 ani.Avand o gama larga de produse la cel mai avantajos pret.Cel mai charysmatic magzin online de branduri din Molodva in ultimii 3 ani.Avand o gama larga de produse la cel mai avantajos pret.
           </i></p>
 
           <div class="services-cards">
@@ -99,11 +99,9 @@ export default ({gallery}) => (
           <h1>SOME OF OUR CLIENTS</h1>
           <div class="line"></div>
           <div class="clients">
-            <img src="../img/design/1logo.png" alt=""/>
-            <img src="../img/design/2logo.png" alt=""/>
-            <img src="../img/design/3logo.png" alt=""/>
-            <img src="../img/design/4logo.png" alt=""/>
-            <img src="../img/design/5logo.png" alt=""/>
+            {Object.keys([...Array(5)]).map(i => (
+              <img src={`../img/design/${i+1}logo.png`} alt=""/>
+            ))}
         </div>
         </div>
       </div>

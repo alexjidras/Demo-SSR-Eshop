@@ -1,10 +1,14 @@
 import React from 'react';
 
-export default ({products, categories, params}) => (
+export default ({ products, categories, params }) => (
     <main id="catalog-products">
         <div id="checkingBar">
             <ul>
-                {categories.map((c) => <li style={params.category === c ? {backgroundColor: "#efefef"} : {}}><a href={`/${c}`}>{c.capitalize()}</a></li>)}
+                {categories.map((c) => (
+                    <li style={params.category === c ? {backgroundColor: "#efefef"} : {}}>
+                        <a href={`/${c}`}>{c.capitalize()}</a>
+                    </li>
+                ))}
             </ul>
         </div>
         <div class="products">

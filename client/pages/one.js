@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default ({product, recommended}) => (
+export default ({ product, recommended }) => (
     <main id="product-body">
     <div class="main-product-block">
       <div class="choose-photo">
